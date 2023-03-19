@@ -20,13 +20,21 @@ Remotely access to Colab in VSCode
         
     For Mac, run the cloudflare file (Enable running in Settings if it is blocked)
         
-    After running,a file will show up with Cloudflare path
+    After running, a terminal window will show up with Cloudflare path
     
     Copy paste the Cloudflare path into .ssh\config in VSCode
        
     The final configure file should look like this
         
     <p style="text-align: center"><image src="resources/mac ssh config.png"></p>
+        
+    For windows, run the cloudflare file will show up with window name as Cloudflare path
+        
+    Copu paster the Cloudflare path into .ssh\config in VSCode
+        
+    <p style="text-align: center"><image src="resources/windows ssh config.png"></p>
+        
+    After running, a command prompt
 
 5. Use "Ctrl+Shft+P" to start VSCode cmd, and type "remote-ssh: connect to host"
 
